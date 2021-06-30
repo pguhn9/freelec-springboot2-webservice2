@@ -1,0 +1,10 @@
+com/gunedu/book/springboot/web/HelloControllerTest.java
+ com.gunedu.book.springboot.web.HelloControllerTest
+com/gunedu/book/springboot/web/dto/HelloResponseDtoTest.java
+ com.gunedu.book.springboot.web.dto.HelloResponseDtoTest
+com/gunedu/book/springboot/domain/posts/PostsRepositoryTest.java
+ com.gunedu.book.springboot.domain.posts.PostsRepositoryTest
+com/gunedu/book/springboot/web/PostsApiControllerTest.java
+ com.gunedu.book.springboot.web.PostsApiControllerTest
+com/gunedu/book/springboot/web/PostsApiControllerTesta.java
+ com.gunedu.book.springboot.web.PostsApiControllerTesta
