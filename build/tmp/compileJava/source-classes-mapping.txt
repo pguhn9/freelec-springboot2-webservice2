@@ -4,20 +4,24 @@ com/gunedu/book/springboot/web/HelloController.java
  com.gunedu.book.springboot.web.HelloController
 com/gunedu/book/springboot/web/dto/HelloResponseDto.java
  com.gunedu.book.springboot.web.dto.HelloResponseDto
-com/gunedu/book/springboot/Application.java
- com.gunedu.book.springboot.Application
-com/gunedu/book/springboot/web/dto/PostsResponseDto.java
- com.gunedu.book.springboot.web.dto.PostsResponseDto
 com/gunedu/book/springboot/web/dto/PostsUpdateRequestDto.java
  com.gunedu.book.springboot.web.dto.PostsUpdateRequestDto
  com.gunedu.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
+com/gunedu/book/springboot/domain/BaseTimeEntity.java
+ com.gunedu.book.springboot.domain.BaseTimeEntity
+com/gunedu/book/springboot/web/dto/PostsResponseDto.java
+ com.gunedu.book.springboot.web.dto.PostsResponseDto
 com/gunedu/book/springboot/service/posts/PostsService.java
  com.gunedu.book.springboot.service.posts.PostsService
-com/gunedu/book/springboot/domain/posts/Posts.java
- com.gunedu.book.springboot.domain.posts.Posts
- com.gunedu.book.springboot.domain.posts.Posts$PostsBuilder
+com/gunedu/book/springboot/web/PostsApiController.java
+ com.gunedu.book.springboot.web.PostsApiController
 com/gunedu/book/springboot/web/dto/PostsSaveRequestDto.java
  com.gunedu.book.springboot.web.dto.PostsSaveRequestDto
  com.gunedu.book.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-com/gunedu/book/springboot/web/PostsApiController.java
- com.gunedu.book.springboot.web.PostsApiController
+com/gunedu/book/springboot/Application.java
+ com.gunedu.book.springboot.Application
+com/gunedu/book/springboot/domain/posts/Posts.java
+ com.gunedu.book.springboot.domain.posts.Posts
+ com.gunedu.book.springboot.domain.posts.Posts$PostsBuilder
+com/gunedu/book/springboot/web/IndexController.java
+ com.gunedu.book.springboot.web.IndexController

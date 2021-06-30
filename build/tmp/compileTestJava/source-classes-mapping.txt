@@ -8,3 +8,5 @@ com/gunedu/book/springboot/web/PostsApiControllerTest.java
  com.gunedu.book.springboot.web.PostsApiControllerTest
 com/gunedu/book/springboot/web/PostsApiControllerTesta.java
  com.gunedu.book.springboot.web.PostsApiControllerTesta
+com/gunedu/book/springboot/web/IndexControllerTest.java
+ com.gunedu.book.springboot.web.IndexControllerTest
