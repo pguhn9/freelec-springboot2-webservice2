@@ -16,16 +16,20 @@ public class PostsApiController {
 
     @PostMapping("/api/v1/posts")
     public Long save(@RequestBody PostsSaveRequestDto requestDto) {
+        System.out.println("save::"+requestDto);
         return postsService.save(requestDto);
     }
 
-    @PostMapping("/api/v1/posts/{id}")
+    @PutMapping ("/api/v1/posts/{id}")
     public Long update(@PathVariable Long id, @RequestBody PostsUpdateRequestDto requestDto) {
+        System.out.println("update::"+id);
+        System.out.println("update::"+requestDto);
         return postsService.update(id, requestDto);
     }
 
-    @DeleteMapping("/api/v1/posts//{id}")
+    @DeleteMapping("/api/v1/posts/{id}")
     public Long delete(@PathVariable Long id) {
+        System.out.println("save::"+id);
         postsService.delete(id);
         return id;
     }

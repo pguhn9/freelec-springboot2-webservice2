@@ -39,6 +39,9 @@ dependencies {
     //머스태치 의존성 추가
     compile('org.springframework.boot:spring-boot-starter-mustache')
 
+    //스프링 시큐리티 관련 의존성 추가
+    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
+
     testCompile('org.springframework.boot:spring-boot-starter-test')
     annotationProcessor 'org.projectlombok:lombok' // gradle 5에선 롬복을 어노테이션을 직접 지정해줘야함..
     implementation 'org.projectlombok:lombok'

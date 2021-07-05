@@ -1,13 +1,12 @@
 var main = {
     init : function () {
         var _this = this;;
+
         $('#btn-save').on('click', function() {
-            alert("save 클릭1");
             _this.save();
         });
 
         $('#btn-update').on('click', function() {
-            alert("업데이트 클릭1");
             _this.update();
         });
 
@@ -34,14 +33,15 @@ var main = {
             window.location.href = '/';
         }).fail(function (error) {
             alert(JSON.stringify(error));
+        }).always(function() {
+            alert("요청 완료");
         });
     },
 
     update : function () {
-        alert("업데이트 클릭");
         var data = {
             title: $('#title').val(),
-            content: $('#title').val()
+            content: $('#content').val()
         };
 
         var id = $('#id').val();
@@ -50,18 +50,19 @@ var main = {
             type: 'PUT',
             url: '/api/v1/posts/'+id,
             dataType: 'json',
-            contentType: 'application/json; charset=utf-8',
+            contentType:'application/json; charset=utf-8',
             data: JSON.stringify(data)
-        }).done(function (){
+        }).done(function() {
             alert('글이 수정되었습니다.');
             window.location.href = '/';
         }).fail(function (error) {
             alert(JSON.stringify(error));
+        }).always(function() {
+            alert("요청 완료");
         });
     },
 
     delete : function () {
-        alert("딜리트 클릭");
         var id = $('#id').val();
 
         $.ajax({
