@@ -25,14 +25,13 @@ com/gunedu/book/springboot/web/dto/PostsSaveRequestDto.java
  com.gunedu.book.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
 com/gunedu/book/springboot/web/IndexController.java
  com.gunedu.book.springboot.web.IndexController
-com/gunedu/book/springboot/config/auth/CustomOAuth2UserService.java
- com.gunedu.book.springboot.config.auth.CustomOAuth2UserService
+com/gunedu/book/springboot/web/dto/HelloResponseDto.java
+ com.gunedu.book.springboot.web.dto.HelloResponseDto
 com/gunedu/book/springboot/domain/posts/Posts.java
  com.gunedu.book.springboot.domain.posts.Posts
  com.gunedu.book.springboot.domain.posts.Posts$PostsBuilder
-com/gunedu/book/springboot/config/auth/dto/OAuthAttributes.java
- com.gunedu.book.springboot.config.auth.dto.OAuthAttributes
- com.gunedu.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/gunedu/book/springboot/Application.java
+ com.gunedu.book.springboot.Application
 com/gunedu/book/springboot/domain/posts/PostsRepository.java
  com.gunedu.book.springboot.domain.posts.PostsRepository
 com/gunedu/book/springboot/domain/user/Role.java
@@ -45,7 +44,8 @@ com/gunedu/book/springboot/web/PostsApiController.java
  com.gunedu.book.springboot.web.PostsApiController
 com/gunedu/book/springboot/domain/user/UserRepository.java
  com.gunedu.book.springboot.domain.user.UserRepository
-com/gunedu/book/springboot/web/dto/HelloResponseDto.java
- com.gunedu.book.springboot.web.dto.HelloResponseDto
-com/gunedu/book/springboot/Application.java
- com.gunedu.book.springboot.Application
+com/gunedu/book/springboot/config/auth/dto/OAuthAttributes.java
+ com.gunedu.book.springboot.config.auth.dto.OAuthAttributes
+ com.gunedu.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/gunedu/book/springboot/config/auth/CustomOAuth2UserService.java
+ com.gunedu.book.springboot.config.auth.CustomOAuth2UserService
